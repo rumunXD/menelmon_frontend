@@ -1,0 +1,17 @@
+table, td, tr, th{
+  border: 2px solid #e1e1e1;
+}
+#table{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  table{
+    margin-top: 5vh;
+    width: 80%;
+    tr{
+      td, th{
+        text-align: center;
+      }
+    }
+  }
+}

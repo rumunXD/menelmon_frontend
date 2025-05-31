@@ -1,0 +1,42 @@
+img{
+  width:30vw;
+}
+#healthBar{
+  width: 20vw;
+  height: 3vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  div{
+    border-bottom-left-radius: 9px;
+    border-top-left-radius: 9px;
+    height: 100%;
+  }
+}
+#player{
+  position: absolute;
+  top: 8vh;
+  left: 1vw;
+}
+#bot{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+button{
+  width: 10vw;
+  margin-top: 1vh;
+  margin-left: 5vw;
+}
+#action-box{
+  position: absolute;
+  top: 70vh;
+  left: 35vw;
+  width: 30vw;
+  height: 15vh;
+  background-color: #dacdc2;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
